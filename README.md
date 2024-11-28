@@ -1,8 +1,9 @@
 # LCEZ Generic Linked List
 
 >
-> Warning !!!
+> # Warning !!!
 > This is a demonstration of generic linked list
+>
 > It will not be maintaining in the future 
 
 ## Why would I do this project?
@@ -32,7 +33,7 @@ int main()
 }
 ```
 
-### all function
+### All Function
 
 - create a head with a head node
 ```c
