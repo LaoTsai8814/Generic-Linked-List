@@ -1,5 +1,10 @@
 # LCEZ Generic Linked List
 
+>
+> Warning !!!
+> This is a demonstration of generic linked list
+> It will not be maintaining in the future 
+
 ## Why would I do this project?
 - Create a linked list quickly and easily
 - Multiple different variable types can be placed in a linked list
