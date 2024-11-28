@@ -7,7 +7,7 @@
 ## How to use
 
 ### demo
-```cpp 
+```c
 #include "Linkinglistc.h"
 
 int main()
@@ -25,4 +25,46 @@ int main()
   }
   return 0;
 }
+```
+
+### all function
+
+- create a head with a head node
+```c
+DualWay* create_list()
+```
+
+- calculate the length of the linked list
+```c
+int list_length(DualWay* head)
+```
+
+- print all data from the linked list
+```c
+void print_all(DualWay* head)
+```
+
+- get the data from the specific index
+```c
+DualWay* GOTO_Index(DualWay* head,int index)
+```
+
+- add node to the linked list
+```c
+DualWay* add_node(DualWay* current, char side)
+```
+
+- delete node from the linkled list
+```c
+DualWay* delete_node(DualWay* head, DualWay* target)
+```
+
+- modify the data in the linked-list
+```c
+void modify_data(DualWay* node, DataType type)
+```
+
+- demo the menu of the linked list function
+```c
+DualWay* menu(DualWay* head)
 ```
